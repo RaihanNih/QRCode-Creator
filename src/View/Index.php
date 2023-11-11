@@ -19,11 +19,11 @@
                     <form class="input-form" method="post" action="/result">
                         <div class="form-group">
                             <label for="name">Link name:</label>
-                            <input type="text" class="form-control" placeholder="Enter Link name" name="name" autocomplete="off">
+                            <input type="text" class="form-control" placeholder="Enter Link name" name="name" autocomplete="off" required>
                         </div>
                         <div class="form-group">
                             <label for="url">URL:</label>
-                            <input type="text" class="form-control" placeholder="Enter URL" name="url" autocomplete="off">
+                            <input type="text" class="form-control" placeholder="Enter URL" name="url" autocomplete="off" required>
                         </div>
                         <div class="text-center">
                             <button type="submit" name="login" class="btn">Render</button>
