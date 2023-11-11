@@ -1,0 +1,12 @@
+{
+    "name": "raihannih/qr_code",
+    "autoload": {
+        "psr-4": {
+            "RaihanNih\\QrCode\\": "src/"
+        }
+    },
+    "require": {
+        "chillerlan/php-qrcode": "^4.3",
+        "steampixel/simple-php-router": "^0.7.1"
+    }
+}
