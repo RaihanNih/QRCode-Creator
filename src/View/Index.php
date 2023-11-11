@@ -26,7 +26,7 @@
                             <input type="text" class="form-control" placeholder="Enter URL" name="url" autocomplete="off" required>
                         </div>
                         <div class="text-center">
-                            <button type="submit" name="login" class="btn">Render</button>
+                            <button type="submit" name="render" class="btn">Render</button>
                         </div>
                     </form>
                 </div>

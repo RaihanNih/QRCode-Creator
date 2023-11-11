@@ -36,6 +36,7 @@ $qrcode = new QRCodeFactory($url, $name);
                         </div>
                         <div class="text-center">
                             <button type="button" id="save" class="btn">Save</button>
+                            <button type="button" id="back" class="btn">Back</button>
                         </div>
                     </form>
                 </div>

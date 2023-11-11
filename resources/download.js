@@ -19,3 +19,7 @@ document.getElementById('save').addEventListener('click', function() {
         })
         .catch(error => console.error('Gagal mengunduh gambar:', error));
 });
+
+document.getElementById('back').addEventListener('click', function() {
+    window.location = '/';
+});

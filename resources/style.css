@@ -24,8 +24,7 @@ body {
     margin-bottom: 20px;
 }
 
-.input-form input[type="text"],
-.input-form input[type="password"] {
+.input-form input[type="text"] {
     border: 2px solid #ccc;
     border-radius: 5px;
     padding: 10px;
@@ -35,13 +34,11 @@ body {
     width: 100%;
 }
 
-.input-form input[type="text"]:focus,
-.input-form input[type="password"]:focus {
+.input-form input[type="text"]:focus {
     border-color: #000;
 }
 
-.input-form input[type="text"]:hover,
-.input-form input[type="password"]:hover {
+.input-form input[type="text"]:hover {
     border-color: #000;
 }
 
