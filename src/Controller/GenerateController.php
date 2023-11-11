@@ -1,11 +1,11 @@
 <?php
 
-use RaihanNih\QrCode\Utils\QRCode;
+use RaihanNih\QrCode\Factory\QRCodeFactory;
 
 $url = $_POST["url"] ?? "";
 $name = $_POST["name"] ?? "";
 
-$qrcode = new QRCode($url, $name);
+$qrcode = new QRCodeFactory($url, $name);
 
 ?>
 <!DOCTYPE html>

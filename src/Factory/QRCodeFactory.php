@@ -1,8 +1,8 @@
 <?php
 
-namespace RaihanNih\QrCode\Utils;
+namespace RaihanNih\QrCode\Factory;
 
-class QRCode
+class QRCodeFactory
 {
 
     public function __construct(protected string $url, protected string $name)
