@@ -5,6 +5,11 @@ use RaihanNih\QrCode\Factory\QRCodeFactory;
 $url = $_POST["url"] ?? "";
 $name = $_POST["name"] ?? "";
 
+if (!str_contains($url, 'http://') && !str_contains($url, 'https://')) {
+    echo "<script>alert('The URL must begin with http:// or https://');</script>";
+    echo "<script>window.location = '/';</script>";
+}
+
 $qrcode = new QRCodeFactory($url, $name);
 
 ?>
