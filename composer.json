@@ -6,7 +6,6 @@
         }
     },
     "require": {
-        "chillerlan/php-qrcode": "^4.3",
         "steampixel/simple-php-router": "^0.7.1"
     }
 }
