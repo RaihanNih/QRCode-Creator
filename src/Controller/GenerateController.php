@@ -6,7 +6,7 @@ $url = $_POST["url"] ?? "";
 $name = $_POST["name"] ?? "";
 
 if ($url === "" ||  $name === "") {
-    echo "<script>alert('Empty values!');</script>";
+    echo "<script>alert('Name and URL cannot be empty!');</script>";
     echo "<script>window.location = '/';</script>";
 }
 
